@@ -121,7 +121,6 @@ let router = useRouter()
 
 .nav-card {
     padding: 16px;
-    border-radius: 20px;
     width: 100%;
 
     background-color: #a6c3e2;

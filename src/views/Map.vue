@@ -33,10 +33,10 @@ onMounted(() => {
 </script>
 <template>
     <div>
-        <Back />
         <v-row class="d-flex justify-center">
-            <h1>На карте отмечены все родники</h1>
             <v-col cols="10">
+                <Back />
+                <h1>На карте отмечены все родники</h1>
                 <div id="map" style="width: 100%; height: 90vh"></div>
             </v-col>
         </v-row>

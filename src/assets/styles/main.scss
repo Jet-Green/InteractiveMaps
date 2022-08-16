@@ -1,6 +1,7 @@
 body {
     // font-family: "Montserrat", sans-serif;
-    height: 100vh;
+    margin: 0;
+    padding: 0;
 
     p {
         color: rgba(0, 0, 0, 0.9);
@@ -17,5 +18,9 @@ body {
 
     h1 {
         font-size: clamp(14px, 5vw, 36px);
+    }
+
+    .v-card {
+        border-radius: 20px;
     }
 }
