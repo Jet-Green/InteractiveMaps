@@ -10,19 +10,35 @@ const router = createRouter({
             component: Landing,
         },
         {
-            path: '/info',
-            name: 'Info',
-            component: () => import('../views/Info.vue'),
-        },
-        {
             path: '/map',
             name: 'Map',
             component: () => import('../views/Map.vue'),
         },
+        {
+            path: '/project',
+            name: 'Project',
+            component: () => import('../views/Project.vue'),
+        },
+        {
+            path: '/underground',
+            name: 'Underground',
+            component: () => import('../views/Underground.vue'),
+        },
+        {
+            path: '/rodniki',
+            name: 'Rodniki',
+            component: () => import('../views/Rodniki.vue'),
+        },
+        {
+            path: '/krai',
+            name: 'Krai',
+            component: () => import('../views/Krai.vue'),
+        },
     ],
     scrollBehavior(to, from, savedPosition) {
-        if (to.name == 'Map')
+        if (!(to.name == 'Landing'))
             return { top: 0 }
+        else return savedPosition
     }
 })
 
