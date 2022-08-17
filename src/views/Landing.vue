@@ -3,6 +3,7 @@ import fountain from '../assets/images/fountain.svg'
 import map from '../assets/images/map.svg'
 import folder from '../assets/images/folder.svg'
 import flag from '../assets/images/flag.png'
+import background from '../assets/images/background.jpg'
 
 import { useRouter } from 'vue-router'
 
@@ -11,9 +12,7 @@ let router = useRouter()
 <template>
     <v-row>
         <v-col cols="12" class="pa-0">
-            <v-parallax
-                src="https://psv4.userapi.com/c235031/u459948274/docs/d51/127bc319d5e0/6.jpg?extra=iFZBoSfZwseXaOis_tDuHPrbdzSahVMNk7nigJ5CiYMVby5wIOhChEkm-owblH9JFjyJkQmRfHWloanXjpmsU-boaeMg2TFMP_Ia0txjdmU49QCnjy34MT9gGwgyIKDk2VfB7sfOE_Q6NVNDfZ26Xpw"
-                height="70vh" class="d-flex align-center" scale="1">
+            <v-parallax :src="background" height="70vh" class="d-flex align-center" scale="1">
             </v-parallax>
         </v-col>
     </v-row>
