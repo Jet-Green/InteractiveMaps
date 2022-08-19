@@ -19,6 +19,13 @@ import Back from '../components/Back.vue'
                 произведено благоустройство территории вокруг выбранного родника.
                 Данный проект станет ежегодным, работа будет продолжена.
                 <v-row>
+                    <v-col>
+                        <v-img
+                            src="https://sun9-74.userapi.com/impg/ll9LdNul_daIj5dwrfHM5lqHefuX8JqJD4LFNw/SkNh1VLtkZw.jpg?size=1024x683&quality=95&sign=3ad1f937886285dadcf7b4d50570c214&type=album">
+                        </v-img>
+                    </v-col>
+                </v-row>
+                <v-row>
                     <v-col cols="6">
                         <v-img
                             src="https://sun9-85.userapi.com/impg/fMFWPDDw-fh0OkYvh_go9n8YlcRxLzEfaVJx8w/_k6PBgOSmKA.jpg?size=1201x1600&quality=95&sign=8bb7b9c8173ec9c1c12d0b4e712a2e72&type=album">
