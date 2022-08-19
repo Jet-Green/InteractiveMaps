@@ -27,7 +27,7 @@ let router = useRouter()
                                 <img :src="folder" alt="проект" height="100">
                             </v-col>
                             <v-col lg="7" cols="6" class="d-flex align-center justify-center">
-                                <h2>Прокет "Родниковый Край"</h2>
+                                <h2>Проeкт "Родниковый Край"</h2>
                             </v-col>
                         </v-row>
                         <v-tooltip location="bottom" activator="parent">
