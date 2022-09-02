@@ -19,15 +19,14 @@ let router = useRouter()
     <v-row class="section d-flex justify-center align-center pt-2">
         <v-col cols="10" sm="8" md="10" lg="6">
             <v-row>
-
                 <v-col md="6" cols="12" class="d-flex justify-center">
                     <v-card class="nav-card" @click="router.push('/project')">
                         <v-row>
-                            <v-col lg="5" cols="6">
-                                <img :src="folder" alt="проект" height="100">
-                            </v-col>
-                            <v-col lg="7" cols="6" class="d-flex align-center justify-center">
+                            <v-col cols="12">
                                 <h2>Проeкт "Родниковый Край"</h2>
+                            </v-col>
+                            <v-col>
+                                <img :src="folder" alt="проект" height="70">
                             </v-col>
                         </v-row>
                         <v-tooltip location="bottom" activator="parent">
@@ -39,11 +38,11 @@ let router = useRouter()
                 <v-col md="6" cols="12" class="d-flex justify-center">
                     <v-card class="nav-card" @click="router.push('/krai')">
                         <v-row>
-                            <v-col lg="5" cols="6">
-                                <img :src="flag" alt="карта" height="100" style="aspect-ratio: 1.45">
-                            </v-col>
-                            <v-col lg="7" cols="6" class="d-flex align-center justify-center">
+                            <v-col cols="12">
                                 <h2>Удмуртия - Родниковый край</h2>
+                            </v-col>
+                            <v-col>
+                                <img :src="flag" alt="карта" height="70">
                             </v-col>
                         </v-row>
                         <v-tooltip location="bottom" activator="parent">
@@ -55,11 +54,11 @@ let router = useRouter()
                 <v-col md="6" cols="12" class="d-flex justify-center">
                     <v-card class="nav-card" @click="router.push('/underground')">
                         <v-row>
-                            <v-col lg="5" cols="6">
-                                <img :src="fountain" alt="карта" height="100">
-                            </v-col>
-                            <v-col lg="7" cols="6" class="d-flex align-center justify-center">
+                            <v-col cols="12">
                                 <h2>Подземные воды Удмуртии</h2>
+                            </v-col>
+                            <v-col>
+                                <img :src="fountain" alt="карта" height="70">
                             </v-col>
                         </v-row>
                         <v-tooltip location="bottom" activator="parent">
@@ -71,11 +70,11 @@ let router = useRouter()
                 <v-col md="6" cols="12" class="d-flex justify-center">
                     <v-card class="nav-card" @click="router.push('/rodniki')">
                         <v-row>
-                            <v-col lg="5" cols="6">
-                                <img :src="fountain" alt="родник" height="100">
-                            </v-col>
-                            <v-col lg="7" cols="6" class="d-flex align-center justify-center">
+                            <v-col cols="12">
                                 <h2>Родники Глазовского района</h2>
+                            </v-col>
+                            <v-col>
+                                <img :src="fountain" alt="родник" height="70">
                             </v-col>
                         </v-row>
                         <v-tooltip location="bottom" activator="parent">
@@ -87,11 +86,11 @@ let router = useRouter()
                 <v-col md="6" cols="12" class="d-flex justify-center">
                     <v-card class="nav-card" @click="router.push('/map')">
                         <v-row>
-                            <v-col lg="5" cols="6">
-                                <img :src="map" alt="карта" height="100">
-                            </v-col>
-                            <v-col lg="7" cols="6" class="d-flex align-center justify-center">
+                            <v-col cols="12">
                                 <h2>Карта</h2>
+                            </v-col>
+                            <v-col>
+                                <img :src="map" alt="карта" height="70">
                             </v-col>
                         </v-row>
                         <v-tooltip location="bottom" activator="parent">
