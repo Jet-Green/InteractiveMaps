@@ -36,9 +36,9 @@ const router = createRouter({
         },
     ],
     scrollBehavior(to, from, savedPosition) {
-        if (!(to.name == 'Landing'))
+        if (to.name !== 'Landing')
             return { top: 0 }
-        else return savedPosition
+        return savedPosition
     }
 })
 

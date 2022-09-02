@@ -37,7 +37,7 @@ onMounted(() => {
             <v-col cols="10">
                 <Back />
                 <h1>На карте отмечены все родники</h1>
-                <div id="map" style="width: 100%; height: 83vh"></div>
+                <div id="map" style="width: 100%; height: 75vh"></div>
             </v-col>
         </v-row>
     </div>

@@ -10,8 +10,8 @@ function toStartPage() {
 <template>
     <v-row>
         <v-col>
-            <span class="back-btn">
-                <span class="mdi mdi-24px mdi-arrow-left ma-4" @click="toStartPage" style="cursor: pointer;"></span>
+            <span class="back-btn" @click="toStartPage" style="cursor: pointer;">
+                <span class="mdi mdi-24px mdi-arrow-left my-4"></span>
                 Назад
             </span>
         </v-col>
